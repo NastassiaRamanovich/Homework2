@@ -29,3 +29,23 @@ int Sumx(int number)
 }
 
 Console.WriteLine(Sumx(number));
+
+// Еще одно решение
+// int Print(string text) 
+// {
+//     Console.WriteLine(text);
+//     int number = Convert.ToInt32(Console.ReadLine());
+//     return number;
+// }
+// static int DigitsNumber (int value){
+//     if (value < 0)
+//     {
+//         value = -value;
+//     }
+
+//     string number = value.ToString();
+//     return number.Length;
+// }
+// int number = Print("Введите число");
+
+// Console.WriteLine(DigitsNumber(number));
